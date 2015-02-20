@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Get rid of this darwin bullshit -->
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.1" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/3.2" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/arm/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.4" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.5" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/mips/3.3" />
+  <remove-project name="platform/prebuilts/clang/darwin-x86/x86/3.3" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/headers" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" />
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+
+  <!--  Remove Regular Toolchains  -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"  />
+
+  <!--  Remove Other Crap  -->
+  <remove-project name="CyanogenMod/AndroidAsync" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_build" />
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+
+  <!--  My Stuff  -->
+  <project name="boulzordev/android_device_motorola_shamu" path="device/motorola/shamu" remote="github" revision="cm-12.0" />
+  <project name="boulzordev/android_kernel_motorola_shamu" path="kernel/motorola/shamu" remote="github" revision="cm-12.0" />
+  <project name="boulzordev/android_vendor_motorola" path="vendor/motorola" remote="github" revision="lollipop" />
+  <project name="boulzordev/android_bootable_recovery" path="bootable/recovery" remote="github" revision="benzo" />
+  <project name="boulzordev/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-12.0" />
+  <project name="boulzordev/android_frameworks_base" path="vendor/xd" remote="github" revision="cm-12.0" />
+  <project name="boulzordev/android_build" path="build" remote="github" revision="cm-12.0" />
+  <project name="boulzordev/android_vendor_xd" path="vendor/xd" remote="github" revision="cm-12.0" />
+  <project name="boulzordev/android_packages_apps_PerformanceControl" path="packages/apps/PerformanceControl" remote="github" revision="android-5.0" />
+  <project name="boulzordev/android_packages_apps_OpenDelta" path="packages/apps/OpenDelta" remote="github" revision="android-5.0" />
+  <project name="boulzordev/android_external_mpandroidchart" path="external/mpandroidchart" remote="github" revision="cm-12.0" />
+  <project name="boulzordev/android_external_koush_AndroidAsync" path="external/koush/AndroidAsync" remote="github" revision="cm-12.0" />
+
+  <!-- My Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="SaberMod/arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="SaberMod/arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="SaberMod/arm-androideabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="Team-Validus/arm-linux-androideabi-4.9" remote="github" revision="GLIBCXX_3.4.20" />
+  <project path="prebuilts/sm" name="SaberMod/prebuilts_cloog_isl" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="SaberMod/aarch64-linux-android-4.9" remote="github" revision="master" />
+
+  <!-- Oher Shit -->
+  <project name="Euphoria-OS/android_packages_apps_ScreenRecorder" path="packages/apps/ScreenRecorder" remote="github" revision="lollipop" />
+  <project name="Euphoria-OS/android_hardware_qcom_power" path="hardware/qcom/power" remote="github" revision="lollipop" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.0" />
+  <project name="omnirom/android_packages_apps_OmniSwitch" path="packages/apps/OmniSwitch" remote="github" revision="android-5.0" />
+
+</manifest>
