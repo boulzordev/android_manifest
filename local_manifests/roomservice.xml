@@ -39,11 +39,11 @@
   <project name="boulzordev/android_vendor_motorola" path="vendor/motorola" remote="github" revision="lollipop" />
   <project name="boulzordev/android_bootable_recovery" path="bootable/recovery" remote="github" revision="benzo" />
   <project name="boulzordev/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-12.0" />
-  <project name="boulzordev/android_frameworks_base" path="vendor/xd" remote="github" revision="cm-12.0" />
+  <project name="boulzordev/android_frameworks_base" path="frameworks/base" remote="github" revision="cm-12.0" />
   <project name="boulzordev/android_build" path="build" remote="github" revision="cm-12.0" />
   <project name="boulzordev/android_vendor_xd" path="vendor/xd" remote="github" revision="cm-12.0" />
-  <project name="boulzordev/android_packages_apps_PerformanceControl" path="packages/apps/PerformanceControl" remote="github" revision="android-5.0" />
-  <project name="boulzordev/android_packages_apps_OpenDelta" path="packages/apps/OpenDelta" remote="github" revision="android-5.0" />
+  <project name="boulzordev/android_packages_apps_PerformanceControl" path="packages/apps/PerformanceControl" remote="github" revision="cm-12.0" />
+  <project name="boulzordev/android_packages_apps_OpenDelta" path="packages/apps/OpenDelta" remote="github" revision="cm-12.0" />
   <project name="boulzordev/android_external_mpandroidchart" path="external/mpandroidchart" remote="github" revision="cm-12.0" />
   <project name="boulzordev/android_external_koush_AndroidAsync" path="external/koush/AndroidAsync" remote="github" revision="cm-12.0" />
 
